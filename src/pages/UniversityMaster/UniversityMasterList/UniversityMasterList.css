@@ -1,0 +1,65 @@
+.exp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: 25%;
+    padding: 12px;
+}
+
+.card .card-body img {
+    width: 100%;
+}
+
+.UniversityMasterList .header {
+    position: relative;
+}
+
+.UniversityMasterList .card .logo {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 20%;
+}
+
+.UniversityMasterList .university-des {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UniversityMasterList .university-des button {
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.UniversityMasterList .location {
+    margin-top: 10px;
+}
+
+.UniversityMasterList .header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UniversityMasterList .toggle {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.UniversityMasterList .toggle button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.UniversityMasterList .toggle .active {
+    background-color: var(--green1);
+    color: white;
+}

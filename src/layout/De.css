@@ -1,0 +1,32 @@
+@keyframes slideRight {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: calc(100% - 100px);
+    /* Adjust 100px according to your image width */
+  }
+}
+
+.whatappus {
+  width: 10%;
+}
+
+.distop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .distop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}

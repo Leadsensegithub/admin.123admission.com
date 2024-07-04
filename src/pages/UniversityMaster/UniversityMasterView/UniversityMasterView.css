@@ -1,0 +1,12 @@
+.UniversityMasterView .universityMasterviewBody {
+    background-color: white;
+    padding: 30px;
+}
+
+.UniversityMasterView .universityMasterviewBody img {
+    width: 100%;
+}
+
+.universityMasterviewBody h5 {
+    color: var(--green1);
+}

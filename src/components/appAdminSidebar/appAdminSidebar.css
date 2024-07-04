@@ -1,0 +1,20 @@
+.app-admin-sidebar {
+  padding: 20px 10px;
+  background-color: white;
+  height: 100vh;
+}
+
+.app-admin-sidebar a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.app-admin-sidebar a.active {
+  color: #fff;
+  background-color: #007bff;
+
+}

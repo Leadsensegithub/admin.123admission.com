@@ -1,0 +1,19 @@
+.success_modal .modal-content {
+  padding: 5%;
+}
+
+.modal {
+  --bs-modal-width: 60%;
+}
+
+.success_modal .but {
+  margin-top: 63%;
+  bottom: 0;
+}
+
+.success_modal input {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #6969ff;
+}

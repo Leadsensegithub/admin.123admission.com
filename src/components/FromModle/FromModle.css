@@ -1,0 +1,88 @@
+.modal {
+    --bs-modal-width: 60%;
+}
+
+.frommodle .but {
+    margin-top: 63%;
+    bottom: 0;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    /* padding: var(--bs-modal-padding); */
+    padding: 0px;
+    border-radius: 20px !important;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
+
+.frommodle .g input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.intl-tel-input {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.intl-tel-input input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.frommodle .text-y {
+    text-align: start;
+}
+
+.frommodle .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.frommodle .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: 20px;
+    outline: 0;
+}
+
+.frommodle .modal-backdrop {
+    --bs-backdrop-zindex: 1050;
+    --bs-backdrop-bg: #002b34;
+    --bs-backdrop-opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-backdrop-zindex);
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bs-backdrop-bg);
+}
+
+@media only screen and (max-width: 600px) {
+    .nnn {
+        display: none;
+    }
+
+    .p-5 {
+        padding: 0rem !important;
+    }
+}
